@@ -1,0 +1,115 @@
+import type { Series } from './types';
+
+export const series: Series[] = [
+  {
+    slug: 'icc-world-test-championship-2025',
+    name: 'ICC World Test Championship 2023–2025',
+    shortName: 'WTC 2023–25',
+    format: 'Test',
+    startDate: '2023-06-16',
+    endDate: '2025-06-14',
+    teams: ['Australia', 'South Africa', 'India', 'England'],
+    host: 'England (Final at Lord’s)',
+    description:
+      'The third edition of the ICC World Test Championship runs from June 2023 to June 2025, culminating in the final at Lord’s. The top two sides in the WTC standings after a two-year cycle of bilateral Test series qualify for the one-off final to decide the world champion of Test cricket.',
+    status: 'completed',
+    matches: [
+      { label: 'WTC Final', date: '2025-06-11', venue: 'Lord’s, London', teams: ['Australia', 'South Africa'], status: 'Australia won by 5 wickets' },
+      { label: 'India vs Australia, 4th Test', date: '2024-12-26', venue: 'MCG, Melbourne', teams: ['India', 'Australia'], status: 'Australia won by 184 runs' },
+      { label: 'England vs South Africa, 3rd Test', date: '2024-09-07', venue: 'The Oval, London', teams: ['England', 'South Africa'], status: 'South Africa won by 7 wickets' },
+    ],
+  },
+  {
+    slug: 'india-vs-england-2025',
+    name: 'India vs England Test Series 2025',
+    shortName: 'IND vs ENG 2025',
+    format: 'Test',
+    startDate: '2025-06-20',
+    endDate: '2025-08-10',
+    teams: ['India', 'England'],
+    host: 'England',
+    description:
+      'India tour England for a five-match Test series in the English summer of 2025. The series is part of the 2025–2027 ICC World Test Championship cycle and revisits one of the most storied rivalries in the game, with matches scheduled at Headingley, Edgbaston, Lord’s, Old Trafford, and The Oval.',
+    status: 'live',
+    matches: [
+      { label: '1st Test', date: '2025-06-20', venue: 'Headingley, Leeds', teams: ['India', 'England'], status: 'England won by 5 wickets' },
+      { label: '2nd Test', date: '2025-07-02', venue: 'Edgbaston, Birmingham', teams: ['India', 'England'], status: 'India won by 336 runs' },
+      { label: '3rd Test', date: '2025-07-10', venue: 'Lord’s, London', teams: ['India', 'England'], status: 'Draw' },
+      { label: '4th Test', date: '2025-07-23', venue: 'Old Trafford, Manchester', teams: ['India', 'England'], status: 'India won by 158 runs' },
+      { label: '5th Test', date: '2025-08-01', venue: 'The Oval, London', teams: ['India', 'England'], status: 'Live — Day 2' },
+    ],
+  },
+  {
+    slug: 'ipl-2026',
+    name: 'Indian Premier League 2026',
+    shortName: 'IPL 2026',
+    format: 'T20',
+    startDate: '2026-03-27',
+    endDate: '2026-05-25',
+    teams: ['Mumbai Indians', 'Chennai Super Kings', 'Royal Challengers Bengaluru', 'Kolkata Knight Riders', 'Delhi Capitals', 'Punjab Kings', 'Rajasthan Royals', 'Sunrisers Hyderabad', 'Gujarat Titans', 'Lucknow Super Giants'],
+    host: 'India',
+    description:
+      'The 19th season of the Indian Premier League features 10 franchises playing 74 matches across 12 venues in India. The tournament follows a round-robin and playoff format, with the top four teams qualifying for Qualifier 1, Eliminator, Qualifier 2, and the Final.',
+    status: 'upcoming',
+    matches: [
+      { label: 'Opening Match', date: '2026-03-27', venue: 'Wankhede Stadium, Mumbai', teams: ['Mumbai Indians', 'Chennai Super Kings'], status: 'Upcoming' },
+      { label: 'Qualifier 1', date: '2026-05-20', venue: 'TBD', teams: ['TBD', 'TBD'], status: 'Upcoming' },
+      { label: 'Final', date: '2026-05-25', venue: 'TBD', teams: ['TBD', 'TBD'], status: 'Upcoming' },
+    ],
+  },
+  {
+    slug: 'icc-t20-world-cup-2026',
+    name: 'ICC T20 World Cup 2026',
+    shortName: 'T20 WC 2026',
+    format: 'T20',
+    startDate: '2026-02-09',
+    endDate: '2026-03-15',
+    teams: ['India', 'Australia', 'England', 'Pakistan', 'South Africa', 'New Zealand', 'West Indies', 'Sri Lanka', 'Bangladesh', 'Afghanistan', 'Ireland', 'Scotland', 'Namibia', 'Oman', 'USA', 'Canada'],
+    host: 'India & Sri Lanka',
+    description:
+      'The 10th edition of the ICC Men’s T20 World Cup is co-hosted by India and Sri Lanka in February–March 2026. 16 teams compete across four groups, with the top two from each group advancing to the Super 8 stage before the semi-finals and final.',
+    status: 'upcoming',
+    matches: [
+      { label: 'Group A Match 1', date: '2026-02-09', venue: 'Eden Gardens, Kolkata', teams: ['India', 'Pakistan'], status: 'Upcoming' },
+      { label: 'Semi-Final 1', date: '2026-03-10', venue: 'TBD', teams: ['TBD', 'TBD'], status: 'Upcoming' },
+      { label: 'Final', date: '2026-03-15', venue: 'R. Premadasa Stadium, Colombo', teams: ['TBD', 'TBD'], status: 'Upcoming' },
+    ],
+  },
+  {
+    slug: 'the-ashes-2025-26',
+    name: 'The Ashes 2025–26',
+    shortName: 'Ashes 2025–26',
+    format: 'Test',
+    startDate: '2025-11-21',
+    endDate: '2026-01-08',
+    teams: ['Australia', 'England'],
+    host: 'Australia',
+    description:
+      'The 73rd Ashes series sees England travel to Australia for five Test matches across the Australian summer. England have not won an Ashes series in Australia since 2010–11, making this one of the most anticipated contests of the 2025–26 calendar.',
+    status: 'upcoming',
+    matches: [
+      { label: '1st Test', date: '2025-11-21', venue: 'The Gabba, Brisbane', teams: ['Australia', 'England'], status: 'Upcoming' },
+      { label: '2nd Test (Day-Night)', date: '2025-12-04', venue: 'Adelaide Oval', teams: ['Australia', 'England'], status: 'Upcoming' },
+      { label: '3rd Test', date: '2025-12-17', venue: 'WACA Ground, Perth', teams: ['Australia', 'England'], status: 'Upcoming' },
+      { label: '4th Test (Boxing Day)', date: '2025-12-26', venue: 'MCG, Melbourne', teams: ['Australia', 'England'], status: 'Upcoming' },
+      { label: '5th Test', date: '2026-01-04', venue: 'SCG, Sydney', teams: ['Australia', 'England'], status: 'Upcoming' },
+    ],
+  },
+  {
+    slug: 'big-bash-league-2025-26',
+    name: 'Big Bash League 2025–26',
+    shortName: 'BBL 15',
+    format: 'T20',
+    startDate: '2025-12-15',
+    endDate: '2026-01-25',
+    teams: ['Sydney Sixers', 'Perth Scorchers', 'Brisbane Heat', 'Adelaide Strikers', 'Melbourne Stars', 'Melbourne Renegades', 'Sydney Thunder', 'Hobart Hurricanes'],
+    host: 'Australia',
+    description:
+      'The 15th season of the Big Bash League features eight Australian franchises playing 44 matches across the Australian summer. The tournament uses a 56-game home-and-away schedule followed by a five-match finals series.',
+    status: 'upcoming',
+    matches: [
+      { label: 'Opening Match', date: '2025-12-15', venue: 'Sydney Cricket Ground', teams: ['Sydney Sixers', 'Sydney Thunder'], status: 'Upcoming' },
+      { label: 'Final', date: '2026-01-25', venue: 'TBD', teams: ['TBD', 'TBD'], status: 'Upcoming' },
+    ],
+  },
+];
